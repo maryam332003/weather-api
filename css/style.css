@@ -1,0 +1,273 @@
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.logo-img{
+  width: 64px;
+  height: 38px  ;
+}
+nav{
+  background-color: #1E202B !important;
+  position: relative !important;
+}
+nav .container .title h1{
+  color:RGB(255, 255, 255);
+  font-size:16px;
+  margin:0px 0px 5px;
+  font-weight:700;
+}
+nav .container .title small{
+  font-size:10px;
+font-weight:300;
+line-height:15px;
+color: white;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+nav .container .collapse  li a.active{
+  color:#009AD8 !important;
+  border: #009AD8 2px solid;
+  border-radius:30px ;
+  margin-top: 5px;
+  padding:2px 20px;
+}
+nav .container .collapse  li a{
+  border: 2px solid transparent;
+  color: white;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  font-weight: 400;
+  border-radius:30px ;
+  margin-top: 5px;
+  padding:2px 20px;
+}
+nav .container .collapse {
+  margin: 40px 0;
+}
+nav .container .collapse  li a:hover{
+  border-color: #009ad8;
+  color: #009ad8;
+
+}
+.navbar-nav{
+  width: 60%;
+}
+
+.hero{
+  width: 100%;
+  height: 50vh;
+  background-image: url(../images/empty-floor-front-modern-building.jpg);
+
+  background-size: cover;
+}
+.hero .container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+form{
+  width: 100% !important;
+}
+.hero .container input{
+  border-radius:30px !important;
+  padding: 20px 50px 20px 20px;
+    background-color: #1e202b;
+    color: white !important;
+    border: none;
+    width: 100% !important;
+    box-shadow: none !important;
+}
+input::placeholder{
+  color: gray !important;
+}
+form{
+  background-color: transparent !important;
+  border: none !important;
+  position: relative;
+}
+.hero .container form button{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  padding: 10px 40px;
+  background-color: #009AD8;
+  border-radius: 30px;
+  border: none;
+}
+.hero .container{
+  display: flex;
+  justify-content: center;
+align-items: center;
+width: 77% !important;
+
+}
+/********************************************************/
+.forecast-table{
+background-color: #1E202B;
+
+}
+.forecast-table .container{
+  width: 75% !important;
+  color: RGB(191, 193, 200);
+}
+.forecast-container{
+  border-radius: 30px;
+
+}
+.row{
+  width: 100%;
+  /* background: #323544; */
+  /* width: 100%; */
+  overflow: hidden;
+  /* border-bottom-right-radius: 10px; */
+  /* border-bottom-left-radius: 10px; */
+  margin-top: -100px;
+  margin-bottom: 50px;
+}
+.today .today-heading{
+background-color: #2F3241;
+color: RGB(191, 193, 200);
+
+}
+.tomorrow-day,.today-heading{
+  padding: 10px !important;
+}
+
+.today .today-content{
+  background-color: #323544;
+}
+.today .today-content .degree-info{
+  font-size:90px;
+  font-weight:700;
+  color: white;
+}
+
+.tomorrow .tomorrow-body{
+background-color: #222530;
+color: RGB(191, 193, 200);
+
+}
+.custom{
+  color: #009ad8;
+}
+
+.tomorrow .tomorrow-content{
+  background-color: #262936;
+}
+.tomorrow .tomorrow-content .degree-info{
+ font-size: 24px;
+ font-weight: 700;
+}
+.after-tomorrow .forecast-body .degree-info{
+ font-size: 24px;
+ font-weight: 700;
+}
+.after-tomorrow .after-tomorrow-day{
+background-color: #2D303D;
+color: RGB(191, 193, 200);
+
+}
+.after-tomorrow .after-tomorrow-content{
+  background-color: #323544;
+}
+span img{
+  width: 20px;
+}
+.tomorrow .tomorrow-body{
+  padding-bottom: 91px;
+}
+.after-tomorrow .after-tomorrow-content{
+  padding-bottom: 99px;
+} 
+
+/**************************************************/
+footer{
+  padding-top: 50px;
+  background-color: #262936;
+  padding-bottom: 50px;
+}
+footer .container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+form{
+  width: 100% !important;
+}
+footer .container input{
+  border-radius:30px !important;
+  padding: 20px 50px 20px 20px;
+    background-color: #1e202b;
+    color: white !important;
+    border: none;
+    width: 100% !important;
+    box-shadow: none !important;
+}
+input::placeholder{
+  color: gray !important;
+}
+form{
+  background-color: transparent !important;
+  border: none !important;
+  position: relative;
+}
+footer .container form button{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  padding: 10px 40px;
+  background-color: #009AD8;
+  border-radius: 30px;
+  border: none;
+}
+footer .container{
+  display: flex;
+  justify-content: center;
+align-items: center;
+width: 77% !important;
+
+}
+li{
+  list-style: none;
+}
+
+
+footer .icons ul{
+  padding: 10px;
+  margin: 7px 3px;
+}
+
+footer .icons ul li{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:#1e202b ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin: 0px 3px;
+
+  transition-duration: 0.3s;
+}
+footer .icons ul li a{
+  color:#009AD8;
+}
+footer .icons ul li:hover{
+  background-color:#009AD8;
+}
+footer .icons ul li:hover a{
+  color: white !important;
+  
+}
+
+footer p{
+  color:
+RGB(191, 193, 200) !important; 
+
+}

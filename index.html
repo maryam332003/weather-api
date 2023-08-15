@@ -1,0 +1,224 @@
+<html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Weather</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="css/all.min.css" />
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+      <nav id="navbar-example" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <div class="navLogo w-25 d-flex justify-content-center pe-5">
+            <a class="navbar-brand fw-bold fs-3 logo robot d-flex" href="#">
+              <img src="images/logo@2x.png" alt="" class="logo-img" />
+              <div class="title">
+                <h1 class="fs-5">Weather</h1>
+                <small>tagline goes here</small>
+              </div>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div
+            class="collapse navbar-collapse pe-5"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto d-flex justify-content-between">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="Home" id="Home">
+        <div class="hero">
+          <div class="container h-100">
+            <form action="" class="find-location">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Find Your Location"
+                id="search"
+              />
+              <button>Find</button>
+            </form>
+          </div>
+        </div>
+        <div class="forecast-table">
+          <div class="container">
+            <div class="forecast-container d-flex">
+              <div class="row w-100 g-0">
+                <div class="forecast today col-md-4 " id="today">
+                  <div
+                    class="today-heading px-2 d-flex justify-content-between py-2"
+                  >
+                    <span class="day" id="todayDay">Thursday</span>
+                    <div class="date">
+                      <span>
+                        <span id="todayDateDay">10</span>
+                        <span id="dateMonth">may</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="today-content pb-4">
+                    <h4 class="px-3 pt-3" id="todayLocation">Cairo</h4>
+                    <div class="degree d-flex justify-content-around">
+                      <div class="degree-info" id="todayDegree">28<sup>o</sup>C</div>
+                      <div
+                        class="degree-img w-25 d-flex justify-content-center align-items-center"
+                      id="todayImgDegree"
+                        >
+                        <img
+                          src="images/Weather_files/113.png"
+                          alt=""
+                          class="w-100"
+                        />
+                      </div>
+                    </div>
+                    <span class="custom mx-3 my-2" id="todayCustom">Clear</span>
+                    <div class="spans d-flex justify-content-around w-75">
+                      <span >
+                        <img
+                          src="images/Weather_files/icon-umberella@2x.png"
+                          class=""
+                          alt=""
+                        />
+                        <span id="humidity">20%</span>
+                        </span
+                      >
+                      <span >
+                        <img
+                          src="images/Weather_files/icon-wind@2x.png"
+                          alt=""
+                        />
+                        <span id="wind">18km/h</span>
+                        </span
+                      >
+                      <span >
+                        <img
+                          src="images/Weather_files/icon-compass@2x.png"
+                          alt=""
+                        />
+                        <span id="windDirection">East</span>
+                        </span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="forecast tomorrow col-md-4">
+                  <div class="tomorrow-content py-2">
+                    <div class="day text-center nextDay">Friday</div>
+                  </div>
+                  <div class="tomorrow-body">
+                    <div class="degree text-center">
+                      <div
+                        class="degree-img d-flex justify-content-center h-25 py-3"
+                      id="tomorrowImg"
+                        >
+                        <img src="images/Weather_files/113(1).png" alt="" class="nextImg"/>
+                      </div>
+                      <div class="degree-info mt-4 maxNextTemp">38.2<sup>o</sup>C</div>
+                      <small class="minNextTemp">24.3 <sup>o</sup></small>
+                    </div>
+                    <div class="custom text-center nextCustom" >Sunny</div>
+                  </div>
+                </div>
+                <div class="forecast after-tomorrow col-md-4">
+                  <div class="after-tomorrow-day py-2">
+                    <div class="day text-center nextDay">Saturday</div>
+                  </div>
+                  <div class="after-tomorrow-content">
+                    <div class="degree text-center">
+                      <div
+                        class="degree-img d-flex justify-content-center py-3"
+                      >
+                        <img
+                          src="images/Weather_files/113(1).png"
+                          alt=""
+                          class="nextImg"
+                        />
+                      </div>
+                      <div class="degree-info maxNextTemp">39.6<sup>o</sup>C</div>
+                      <small class="minNextTemp">25.3 <sup>o</sup></small>
+                    </div>
+                    <div class="custom text-center nextCustom">Sunny</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container d-flex justify-content-between">
+          <form action="" class="find-location w-75">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter Your Email To Subscribe"
+            />
+            <button class="text-light">Subscribe</button>
+          </form>
+          <div class="icons">
+            <ul class="d-flex">
+              <li>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-google"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="w-75 m-auto ps-2 mt-3">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </footer>
+
+      <script src="js/main.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+  </html>
+</html>
